@@ -6,6 +6,9 @@ main.addEventListener('click', function(event) {
   alert('I was clicked!');
 });
 
+
+//Demonstrate Triggering Events Listeners on DOM Nodes
+
 const input = document.querySelector('input');
 
 input.addEventListener('keydown', function(e) {
